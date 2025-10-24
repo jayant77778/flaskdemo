@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Welcome to Flask app running in Docker!"})
+    return jsonify({"message": "Welcome to Flask app running in Docker"})
 
 @app.route('/hello/<name>')
 def hello(name):
